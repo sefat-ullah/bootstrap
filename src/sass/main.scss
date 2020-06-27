@@ -1,0 +1,24 @@
+/*!
+* HQ Admin Theme
+* Author: volt
+* https://youtube.com
+*/
+
+// Bootstrap
+
+@import "_vars.scss";
+@import "_customize-bootstrap.scss";
+@import "~bootstrap/scss/bootstrap";
+
+$fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
+$fa-font-path: "~@fortawesome/fontawesome-free/scss/regular.scss";
+$fa-font-path: "~@fortawesome/fontawesome-free/scss/solid.scss";
+$fa-font-path: "~@fortawesome/fontawesome-free/scss/brands.scss";
+
+// App Layout
+
+@import 'app/components/app';
+@import 'app/components/app-header';
+@import 'app/components/app-sidebar';
+@import 'app/components/app-sidebar-mini';
+@import 'app/components/app-title';
